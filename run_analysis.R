@@ -8,12 +8,12 @@ library(lubridate)  ## for functions relted to time
 
 source("CombineDataIntoDF.R")
 
-## Num of Row: amount of the test instructions
-#     subject_: test taker id (10299*1)
-#           X_: each row has values of 561 features(10299*561)
-#           y_: instruction labels(10299*1)
-#   body_acc_x: each row has 128 signals related to body acceleration(10299*128)
-#   body_acc_x: ach row has 128 signals related to total acceleration(10299*128)
+##   Num of Row: amount of the test instructions
+#      subject_: test taker id (10299*1)
+#            X_: each row has values of 561 features(10299*561)
+#            y_: instruction labels(10299*1)
+#    body_acc_x: each row has 128 signals related to body acceleration(10299*128)
+#   total_acc_x: ach row has 128 signals related to total acceleration(10299*128)
 
 
 path_TestData <- c("./UCI HAR Dataset/test/subject_test.txt",
